@@ -9,5 +9,5 @@ body {
 #main-image {
     height: 600px;
     width: 100%;
-    background: url(/assets/images/barca-front.jpg) no-repeat center center;
+    background: url(assets/images/barca-front.jpg) no-repeat center center;
 }
