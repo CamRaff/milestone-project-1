@@ -10,6 +10,9 @@ For my first Milstone Project on my course through Code Institute via UCP (Unive
     
     - [User Stories](#user-stories)
 
+- [Design](#design)
+    
+    - [Wireframes](#wireframes)
 ---
 
 ## User Experience (UX)
@@ -18,16 +21,51 @@ For my first Milstone Project on my course through Code Institute via UCP (Unive
 
 #### First Time Visitors
 
-    - I want to understand what the situation with Barca Tynemouth is, like opening times and location.
-    - I want to get a feel for the vibe of the venue and menu.
-    - I am interested in purchasing merchandise if possible.
-    - I want to be able to access and navigate the website easily regardless of which device I choose to use.
+- I want to understand what the situation with Barca Tynemouth is, like opening times and location.
+- I want to get a feel for the vibe of the venue and menu.
+- I am interested in purchasing merchandise if possible.
+- I want to be able to access and navigate the website easily regardless of which device I choose to use.
 
 #### Returning Visitors
 
-    - I want to see if there is any new events or merchandise available on the site.
+- I want to see if there is any new events or merchandise available on the site.
 
 #### Frequent Visitors
 
-    - I want the option to reach out via socials to get updates on events and merchandise.
+- I want the option to reach out via socials to get updates on events and merchandise.
 
+---
+
+## Design
+
+### Wireframes
+
+The below Wireframes were created with responsive design in mind. The main focus was to produce a view on various screensizes which would maintain an overall aesthetic and appeal.
+
+#### Mobile
+
+This is the initial mock-up for all 3 pages on a mobile device.
+
+![mobile-wireframe](assets/images/wireframes/mobile-wireframe.png/)
+
+#### Tablet
+
+This is an initial mock-up for the view of the merch page on a tablet. My vision for a tablet view would be to have the Home and Menu page look the same as on mobile, so with the only real changes being to the Merch page, I created a mock-up for that.
+
+![tablet-wireframe](assets/images/wireframes/tablet-wireframe.png/)
+
+#### Desktop
+
+Below are the mock-ups for each individual page when viewed on a desktop/laptop screen. 
+
+##### Home page
+
+![desktop-home-wireframe](assets/images/wireframes/desktop-home-wireframe.png/)
+
+##### Merch page
+
+![desktop-merch-wireframe](assets/images/wireframes/desktop-merch-wireframe.png/)
+
+##### Menu page
+
+![desktop-menu-wireframe](assets/images/wireframes/desktop-menu-fireframe.png/)
