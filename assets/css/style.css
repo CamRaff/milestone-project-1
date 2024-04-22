@@ -21,6 +21,7 @@ span {
 /* Header styling */
 
 header {
+    width: 100%;
     font-family: Anton;
     margin-top: 20px;
 }
@@ -38,7 +39,6 @@ header a {
 }
 
 #menu {
-    float: right;
     font-size: 200%;
     letter-spacing: 6px;
 }
@@ -75,6 +75,13 @@ body {
     font-family: Merriweather;
 }
 
+#main-image {
+    text-align: center;
+    height: 680px;
+    width: 100%;
+    overflow: hidden;
+}
+
 /* #about {
     height: 300px;
 } */
@@ -97,12 +104,14 @@ body {
 
 #times {
     text-align: center;
-    padding-left: 100px;
+    width: 100%;
+    margin: 20px;
+    font-size: 25px;
 }
 
 #times li {
     list-style-type: none;
-    margin: 10px;
+    margin: 20px;
 }
 
 #times h2 {
@@ -113,15 +122,27 @@ body {
     margin: 50px 0px;
 }
 
+.social-networks {
+    text-align: center;
+}
+
+.social-networks li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 300%;
+    margin: 1%;
+    padding: 5%;
+    color: #a5b867;
+}
+
+.social-networks i:hover {
+    color: #d96d4c;
+}
+
 /* #main-image {
     height: 600px;
     width: 100%;
     background: url(/assets/images/barca-front.jpg) no-repeat center center;
 } */
-
-#main-image {
-    text-align: center;
-    height: 680px;
-    width: 100%;
-    overflow: hidden;
-}
