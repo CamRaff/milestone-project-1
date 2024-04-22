@@ -27,6 +27,8 @@ For my first Milstone Project on my course through Code Institute via UCP (Unive
         - [Merriweather](#merriweather)
 
         - [Anton](#anton)
+    
+    -[Images](#images)
 ---
 
 ## User Experience (UX)
@@ -113,3 +115,11 @@ I chose Merriweather for the body text font as I think it has a very friendly an
 I chose Anton for the header and navigation text as I felt that this font had a similar kind of sharpness too it as can be seen in the image above where I chose the color scheme from.
 
 ![anton](assets/images/anton-example.png/)
+
+### Images
+
+The image used on the home page was created by John Christensen, a staff member at Barca Tynemouth. Each of the merchandise images were taken by Beth Simpson, also a staff member at Barca Tynemouth.
+
+For the social media links in the footer I used Font Awesome, with a link acquired from Code Institute.
+
+Images found on the menu page were sourced from various places online, and credit is as follows:
