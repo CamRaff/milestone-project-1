@@ -5,13 +5,17 @@
 * {
     margin: 0;
     padding: 0;
-    border: 1px solid red;
+    border: none;
 }
 
 html {
     background-color: rgb(0, 0, 0);
     height: 100%;
     width: 100%;
+}
+
+span {
+    color: #d96d4c;
 }
 
 /* Header styling */
@@ -31,10 +35,6 @@ header a {
     font-size: 400%;
     margin-left: 25px;
     letter-spacing: 6px;
-}
-
-span {
-    color: #d96d4c;
 }
 
 #menu {
@@ -75,6 +75,44 @@ body {
     font-family: Merriweather;
 }
 
+/* #about {
+    height: 300px;
+} */
+
+#description {
+    text-align: center;
+    width: 100%;
+    padding: 20px 50px;
+    font-size: 25px;
+}
+
+#description h2 {
+    padding-bottom: 10px;
+    border-bottom: 2px solid #d96d4c;
+}
+
+#description p {
+    padding-top: 10px;
+}
+
+#times {
+    text-align: center;
+    padding-left: 100px;
+}
+
+#times li {
+    list-style-type: none;
+    margin: 10px;
+}
+
+#times h2 {
+    color: #d96d4c;
+}
+
+#map {
+    margin: 50px 0px;
+}
+
 /* #main-image {
     height: 600px;
     width: 100%;
@@ -86,5 +124,4 @@ body {
     height: 680px;
     width: 100%;
     overflow: hidden;
-    margin: 10px;
 }
