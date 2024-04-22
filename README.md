@@ -13,6 +13,20 @@ For my first Milstone Project on my course through Code Institute via UCP (Unive
 - [Design](#design)
     
     - [Wireframes](#wireframes)
+
+        - [Mobile](#mobile)
+        
+        - [Tablet](#tablet)
+
+        - [Desktop](#desktop)
+
+    - [Color Scheme](#color-scheme)
+
+    - [Typography](#typography)
+
+        - [Merriweather](#merriweather)
+
+        - [Anton](#anton)
 ---
 
 ## User Experience (UX)
@@ -69,3 +83,33 @@ Below are the mock-ups for each individual page when viewed on a desktop/laptop 
 ##### Menu page
 
 ![desktop-menu-wireframe](assets/images/wireframes/desktop-menu-fireframe.png/)
+
+### Color Scheme
+
+For the color scheme of the website, I decided to go with the original color palette from the logo you can see below.
+
+![barca-logo](assets/images/barca-logo.jpg/)
+
+I chose the green color for the body text, as well as the navigation menu, and decided to make it so that when you hover over the navigation links, they change to red. This is in keeping with the original logo with it being green to begin with, and then red at the end. I decided to also maintain the black backround, and this allows the text to stand out. 
+
+For the green color, I went with the hexidecimal color `#a5b867`, as this was the closest I could get to the original green in the logo.
+
+For the red color, I went with the hexidecimal color `#d96d4c`, as I feel like this is the best match to the original logo.
+
+I feel that these colors work well together as there is good contrast between the two, and they also stand out really well against a black background.
+
+### Typography
+
+After spending some time looking over some fonts, I decided to go with [Merriweather](https://fonts.google.com/specimen/Merriweather/) for the body of the site, and [Anton](https://fonts.google.com/specimen/Anton/) for the header and navigation text. Both fonts were acquired from Google Fonts.
+
+#### Merriweather
+
+I chose Merriweather for the body text font as I think it has a very friendly and inviting vibe, and I think with the color being a shade of green, some fonts wouldn't look quite as nice in this color, however Merriweather does. 
+
+![merriweather](assets/images/merriweather-example.png/)
+
+#### Anton
+
+I chose Anton for the header and navigation text as I felt that this font had a similar kind of sharpness too it as can be seen in the image above where I chose the color scheme from.
+
+![anton](assets/images/anton-example.png/)
