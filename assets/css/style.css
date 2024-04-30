@@ -44,7 +44,8 @@ header a {
     letter-spacing: 6px;
 }
 
-#logo #menu {
+#logo,
+#menu {
     line-height: 75px;
 }
 
