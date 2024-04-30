@@ -28,7 +28,19 @@ For my first Milstone Project on my course through Code Institute via UCP (Unive
 
         - [Anton](#anton)
     
-    -[Images](#images)
+    - [Images](#images)
+
+    - [Features](#features)
+
+- [Credits](#credits)
+
+    - [Outside Code](#outside-code)
+
+    - [Images](#images-1)
+
+    - [Core Content](#core-content)
+
+    - [Acknowledgements](#acknowledgements)
 ---
 
 ## User Experience (UX)
@@ -58,31 +70,31 @@ For my first Milstone Project on my course through Code Institute via UCP (Unive
 
 The below Wireframes were created with responsive design in mind. The main focus was to produce a view on various screensizes which would maintain an overall aesthetic and appeal.
 
-#### Mobile
+- #### Mobile
 
 This is the initial mock-up for all 3 pages on a mobile device.
 
 ![mobile-wireframe](assets/images/wireframes/mobile-wireframe.png/)
 
-#### Tablet
+- #### Tablet
 
 This is an initial mock-up for the view of the merch page on a tablet. My vision for a tablet view would be to have the Home and Menu page look the same as on mobile, so with the only real changes being to the Merch page, I created a mock-up for that.
 
 ![tablet-wireframe](assets/images/wireframes/tablet-wireframe.png/)
 
-#### Desktop
+- #### Desktop
 
 Below are the mock-ups for each individual page when viewed on a desktop/laptop screen. 
 
-##### Home page
+- ##### Home page
 
 ![desktop-home-wireframe](assets/images/wireframes/desktop-home-wireframe.png/)
 
-##### Merch page
+- ##### Merch page
 
 ![desktop-merch-wireframe](assets/images/wireframes/desktop-merch-wireframe.png/)
 
-##### Menu page
+- ##### Menu page
 
 ![desktop-menu-wireframe](assets/images/wireframes/desktop-menu-fireframe.png/)
 
@@ -122,4 +134,32 @@ The image used on the home page was created by John Christensen, a staff member 
 
 For the social media links in the footer I used Font Awesome, with a link acquired from Code Institute.
 
-Images found on the menu page were sourced from various places online, and credit is as follows:
+All of the images found on the menu page were taken by myself using my iPhone. 
+
+### Features
+
+The project I created consists of 3 pages: a Home page, a Merchandise page, and a Menu page.
+
+---
+
+## Credits
+
+### Outside Code
+
+- I couldn't quite figure out how to get the images on the menu page to show the description and pricing when hovering, so I did a quick google and found a good bit of code on a website called [Stack Overflow](https://stackoverflow.com/questions/14263594/how-to-show-text-on-image-when-hovering). I copied this and edited it to make it work within my site.
+
+### Images
+
+- All of the images (except the social media icons, which are from [Font Awesome](https://fontawesome.com)) used in this project were either taken or developed by staff members at Barca. 
+
+### Core Content
+
+- All of the content, including drinks descriptions, was written by myself.
+
+### Acknowledgements 
+
+I would like to say a special thank you to several individuals:
+
+- Ronan McClelland - my Code Institute mentor, for their helpful and kind manner in which they conduct themselves. They have made attempting a coding project like this a lot more pleasant with their knowledge and understanding.
+
+- Mark Nevison - one of the students in my cohort. They were always extremely helpful whenever I asked, no matter how menial my issue may have been. 
