@@ -10,7 +10,7 @@ For my first Milstone Project on my course through Code Institute via UCP (Unive
     
     - [User Stories](#user-stories)
 
-- [Design](#design)
+- [Design](#design-and-development)
     
     - [Wireframes](#wireframes)
 
@@ -31,6 +31,20 @@ For my first Milstone Project on my course through Code Institute via UCP (Unive
     - [Images](#images)
 
     - [Features](#features)
+
+    - [Development](#development)
+
+        - [Libraries, Websites and Programs](#libraries-websites-and-programs)
+
+- [Deployment and Local Development](#deployment-and-local-development)
+
+    - [Deployment](#deployment)
+
+    - [Local Development](#local-development)
+
+        - [Fork](#fork)
+
+        - [Clone](#clone)
 
 - [Credits](#credits)
 
@@ -64,25 +78,25 @@ For my first Milstone Project on my course through Code Institute via UCP (Unive
 
 ---
 
-## Design
+## Design and Development
 
 ### Wireframes
 
 The below Wireframes were created with responsive design in mind. The main focus was to produce a view on various screensizes which would maintain an overall aesthetic and appeal.
 
-- #### Mobile
+#### Mobile
 
 This is the initial mock-up for all 3 pages on a mobile device.
 
 ![mobile-wireframe](assets/images/wireframes/mobile-wireframe.png/)
 
-- #### Tablet
+#### Tablet
 
 This is an initial mock-up for the view of the merch page on a tablet. My vision for a tablet view would be to have the Home and Menu page look the same as on mobile, so with the only real changes being to the Merch page, I created a mock-up for that.
 
 ![tablet-wireframe](assets/images/wireframes/tablet-wireframe.png/)
 
-- #### Desktop
+#### Desktop
 
 Below are the mock-ups for each individual page when viewed on a desktop/laptop screen. 
 
@@ -116,13 +130,13 @@ I feel that these colors work well together as there is good contrast between th
 
 After spending some time looking over some fonts, I decided to go with [Merriweather](https://fonts.google.com/specimen/Merriweather/) for the body of the site, and [Anton](https://fonts.google.com/specimen/Anton/) for the header and navigation text. Both fonts were acquired from Google Fonts.
 
-#### Merriweather
+- #### Merriweather
 
 I chose Merriweather for the body text font as I think it has a very friendly and inviting vibe, and I think with the color being a shade of green, some fonts wouldn't look quite as nice in this color, however Merriweather does. 
 
 ![merriweather](assets/images/merriweather-example.png/)
 
-#### Anton
+- #### Anton
 
 I chose Anton for the header and navigation text as I felt that this font had a similar kind of sharpness too it as can be seen in the image above where I chose the color scheme from.
 
@@ -142,19 +156,70 @@ The project I created consists of 3 pages: a Home page, a Merchandise page, and 
 
 Several features are seen on all 3 pages, those being the main logo, the navigation tools and the social media links in the footer. I wanted to keep these features the same across all pages as it maintains the overall accessibility of the site, meaning when someone wants to access a certain page, they know exactly where to visit to get there! 
 
-There are certain aspects of each page that are unique, for example:
+My reasons for having each page display as they are were as follows:
 
-#### Home Page
+- #### Home Page
 
 This page has a very straight forward layout, with an image of the front of the bar created by one of the bar staff, as well as a brief description, location information and links to social platforms. I felt that this was a great example of a home page, as it gives you everything you may need at a first glance of the website. The unique aspect of this page is the location information, utilizing an iframe to put the map on the page. The overall layout for this page should stay the same on smaller devices, with one change being the main image. For smaller screens, to give it a better user experience, I changed the image so that it shows the BARCA logo instead of the original bar image as I felt the bar image was just a bit too big to be displayed properly on a smaller screen.
 
-#### Menu Page
+- #### Menu Page
 
-I wanted this page to look a bit like a menu from an actual bar or restaurant, with images of the thing you would purchase along with a description and pricing. I kept this one relatively simple again and made it so that the image and description alternating sides as you went down the products on the page (image left with its description right, then image right with its description left and so on). The unique part of this page is the layout and how it differs from the other two. The overall layout for this page should stay the same on smaller devices.
+I wanted this page to look a bit like a menu from an actual bar or restaurant, with images of the thing you would purchase along with a description and pricing. I kept this one relatively simple again and made it so that the image and description alternated sides as you went down the products on the page (image left with its description right, then image right with its description left and so on). The unique part of this page is the layout and how it differs from the other two. The overall layout for this page should stay the same on smaller devices.
 
-#### Merch Page
+- #### Merch Page
 
 For this page I had the idea of having the merchandise description and pricing appear when you hovered over the image with a mouse. I achieved this, and I think it looks good on the page. As it would be a lot harder to achieve this on smaller devices like tablets and smartphones, I decided to make it so that the description of the item fell below each image, and each image just fell in a linear fashion. 
+
+
+### Development
+
+For this project, as per the requirements, the languages I used to create this website were HTML and CSS. 
+
+#### Libraries, Websites and Programs 
+
+- I used [VSCode](https://code.visualstudio.com) as my IDE of choice. 
+- I used [Git](https://git-scm.com/) for version control.
+- I used [GitHub](https://github.com/) to commit and store all files relating to the project.
+- I used [Balsamiq](https://balsamiq.com/) to produce the above wireframes.
+- I used [Google Fonts](https://fonts.google.com/) to evaluate and decide which fonts to use throughout the website.
+- I used [Font Awesome](https://fontawesome.com/) to acquire the icons used for the socials links.
+- I used [Google Dev Tools](https://developer.chrome.com/docs/) as a means of testing the website throughout its production.
+
+---
+
+## Deployment and Local Development
+
+### Deployment
+
+This site is available for deployment via GitHub Pages. In order to deploy this site, you must:
+
+1. Log in to Github (or sign up).
+2. Go to the repository for this project - <https://github.com/CamRaff/milestone-project-1>
+3. Click the "Settings" button above the project name.
+4. Select "Pages" from the navigation bar at the left of the screen.
+5. From the source dropdown, select "Deploy from a branch", and then "main".
+6. The site is now deployed. This may take a few moments, but upon completion you should be able to acquire the link and visit the site via the top of GitHub Pages.
+
+### Local Development
+
+#### Fork
+
+In order to Fork this repository, you must:
+
+1. Log in to GitHub (or sign up).
+2. Go to the repository for this project - <https://github.com/CamRaff/milestone-project-1>
+3. Click the "Fork" button on the right, on the same line as the project name.
+
+#### Clone
+
+In order to clone this repository, you must:
+
+1. Log in to GitHub (or sign up).
+2. Go to the repository for this project - <https://github.com/CamRaff/milestone-project-1>
+3. Click on the "Code" button above the number of commits. 
+4. Select whether you would like to clone with HTTPS, SSH or GitHub CLI, then copy the given link.
+5. Open the terminal in your desired IDE, then select your desired location for the cloned directory.
+6. Type 'git clone' into the terminal, paste the link you copied in step 4 and press enter. 
 
 ---
 
