@@ -103,10 +103,6 @@ body {
     overflow: hidden;
 }
 
-/* #about {
-    height: 300px;
-} */
-
 #description {
     text-align: center;
     padding: 20px 50px;
@@ -198,6 +194,10 @@ body {
     visibility: visible;
     opacity: 1;
 }
+
+/* End of copied snippet */
+
+/* Same code repeated for each merch item */
 
 .bar-wrap {
     position: relative;

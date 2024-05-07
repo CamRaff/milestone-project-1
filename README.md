@@ -138,7 +138,23 @@ All of the images found on the menu page were taken by myself using my iPhone.
 
 ### Features
 
-The project I created consists of 3 pages: a Home page, a Merchandise page, and a Menu page.
+The project I created consists of 3 pages: a Home page, a Merchandise page, and a Menu page. The idea was to have each page responsive and work across a variety of devices.
+
+Several features are seen on all 3 pages, those being the main logo, the navigation tools and the social media links in the footer. I wanted to keep these features the same across all pages as it maintains the overall accessibility of the site, meaning when someone wants to access a certain page, they know exactly where to visit to get there! 
+
+There are certain aspects of each page that are unique, for example:
+
+#### Home Page
+
+This page has a very straight forward layout, with an image of the front of the bar created by one of the bar staff, as well as a brief description, location information and links to social platforms. I felt that this was a great example of a home page, as it gives you everything you may need at a first glance of the website. The unique aspect of this page is the location information, utilizing an iframe to put the map on the page. The overall layout for this page should stay the same on smaller devices, with one change being the main image. For smaller screens, to give it a better user experience, I changed the image so that it shows the BARCA logo instead of the original bar image as I felt the bar image was just a bit too big to be displayed properly on a smaller screen.
+
+#### Menu Page
+
+I wanted this page to look a bit like a menu from an actual bar or restaurant, with images of the thing you would purchase along with a description and pricing. I kept this one relatively simple again and made it so that the image and description alternating sides as you went down the products on the page (image left with its description right, then image right with its description left and so on). The unique part of this page is the layout and how it differs from the other two. The overall layout for this page should stay the same on smaller devices.
+
+#### Merch Page
+
+For this page I had the idea of having the merchandise description and pricing appear when you hovered over the image with a mouse. I achieved this, and I think it looks good on the page. As it would be a lot harder to achieve this on smaller devices like tablets and smartphones, I decided to make it so that the description of the item fell below each image, and each image just fell in a linear fashion. 
 
 ---
 
