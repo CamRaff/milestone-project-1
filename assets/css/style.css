@@ -264,3 +264,92 @@ body {
     visibility: visible;
     opacity: 1;
 }
+
+/* Menu styling  */
+
+#menu-intro {
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 25px;
+}
+
+#menu-intro h1 {
+    margin: 10px;
+}
+
+.drinks {
+    height: 500px;
+    width: 50%;
+    overflow: hidden;
+    text-align: center;
+}
+
+.drinks img {
+    object-fit: contain;
+    height: 100%;
+    width: 100%;
+}
+
+#tbt {
+    height: 500px;
+    padding: 10px;
+    margin: 50px;
+}
+
+#tbt-img {
+    display: inline-block;
+    width: 49%;
+}
+
+#tbt-desc {
+    display: inline-block;
+    width: 49%;
+}
+
+.drinks h3 {
+    font-size: 50px;
+    margin: 10px;
+    letter-spacing: 3px;
+}
+
+.drinks h4 {
+    font-size: 50px;
+    margin: 10px;
+    letter-spacing: 2px;
+}
+
+.drinks p {
+    font-size: 25px;
+}
+
+#guin {
+    height: 500px;
+    padding: 10px;
+    margin: 50px;
+}
+
+#guin-img {
+    display: inline-block;
+    width: 49%;
+}
+
+#guin-desc {
+    display: inline-block;
+    width: 49%;
+}
+
+#camden {
+    height: 500px;
+    padding: 10px;
+    margin: 50px;
+}
+
+#camden-img {
+    display: inline-block;
+    width: 49%;
+}
+
+#camden-desc {
+    display: inline-block;
+    width: 49%;
+}
