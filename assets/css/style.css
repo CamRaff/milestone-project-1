@@ -283,8 +283,6 @@ body {
 }
 
 .drinks {
-    height: 500px;
-    width: 50%;
     overflow: hidden;
     text-align: center;
 }
@@ -293,22 +291,31 @@ body {
     object-fit: contain;
     height: 100%;
     width: 100%;
+    max-width: 400px;
 }
 
-#tbt {
-    height: 500px;
-    padding: 10px;
-    margin: 50px;
+.columns {
+    margin: 50px auto;
+    max-width: 400px;
+
+    @media only screen and (min-width: 1200px) {
+        max-width: 100%;
+        display: flex;
+    }
 }
 
-#tbt-img {
-    display: inline-block;
-    width: 49%;
+.columns--alt {
+    @media only screen and (min-width: 1200px) {
+        flex-direction: row-reverse;
+    }
 }
 
-#tbt-desc {
-    display: inline-block;
-    width: 49%;
+.columns .drinks {
+    @media only screen and (min-width: 1200px) {
+
+        display: inline-block;
+        width: 50%;
+    }
 }
 
 .drinks h3 {
@@ -325,36 +332,4 @@ body {
 
 .drinks p {
     font-size: 25px;
-}
-
-#guin {
-    height: 500px;
-    padding: 10px;
-    margin: 50px;
-}
-
-#guin-img {
-    display: inline-block;
-    width: 49%;
-}
-
-#guin-desc {
-    display: inline-block;
-    width: 49%;
-}
-
-#camden {
-    height: 500px;
-    padding: 10px;
-    margin: 50px;
-}
-
-#camden-img {
-    display: inline-block;
-    width: 49%;
-}
-
-#camden-desc {
-    display: inline-block;
-    width: 49%;
 }
