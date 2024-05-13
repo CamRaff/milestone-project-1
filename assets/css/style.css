@@ -195,21 +195,30 @@ body {
 
 .merch {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    @media only screen and (min-width: 1200px) {
+        flex-direction: row;
+    }
+}
+
+.merch>div {
+    flex-grow: 1
 }
 
 .merch img {
     object-fit: contain;
-    height: 500px;
-    width: 33%;
-}
+    max-height: 400px;
 
-/* The following code, up to the hover, I found online to help me create the desired effect when hovering over the merchandise images */
+    @media only screen and (min-width: 1200px) {
+        max-height: 500px;
+    }
+}
 
 .hands-wrap {
     position: relative;
-    height: 500px;
-    width: 33%;
 }
 
 #hands-image {
@@ -217,36 +226,8 @@ body {
     width: 100%;
 }
 
-#hands-description {
-    text-align: center;
-    font-size: 50px;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background: #000000;
-    color: #a5b867;
-    visibility: hidden;
-    opacity: 0;
-
-    /* transition effect. not necessary */
-    transition: opacity .2s, visibility .2s;
-}
-
-.hands-wrap:hover #hands-description {
-    visibility: visible;
-    opacity: 1;
-}
-
-/* End of copied snippet */
-
-/* Same code repeated for each merch item */
-
 .bar-wrap {
     position: relative;
-    height: 500px;
-    width: 33%;
 }
 
 #bar-image {
@@ -254,32 +235,8 @@ body {
     width: 100%;
 }
 
-#bar-description {
-    text-align: center;
-    font-size: 50px;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background: #000000;
-    color: #a5b867;
-    visibility: hidden;
-    opacity: 0;
-
-    /* transition effect. not necessary */
-    transition: opacity .2s, visibility .2s;
-}
-
-.bar-wrap:hover #bar-description {
-    visibility: visible;
-    opacity: 1;
-}
-
 .man-wrap {
     position: relative;
-    height: 500px;
-    width: 33%;
 }
 
 #man-image {
@@ -287,24 +244,28 @@ body {
     width: 100%;
 }
 
-#man-description {
+.description {
     text-align: center;
-    font-size: 50px;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
     background: #000000;
     color: #a5b867;
-    visibility: hidden;
-    opacity: 0;
+    padding: 20px;
+    font-size: 22px;
 
-    /* transition effect. not necessary */
-    transition: opacity .2s, visibility .2s;
+    @media only screen and (min-width: 1200px) {
+        font-size: 50px;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        visibility: hidden;
+        opacity: 0;
+        /* transition effect. not necessary */
+        transition: opacity .2s, visibility .2s;
+    }
 }
 
-.man-wrap:hover #man-description {
+.merch>div:hover .description {
     visibility: visible;
     opacity: 1;
 }
