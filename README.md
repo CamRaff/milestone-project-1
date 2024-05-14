@@ -233,28 +233,41 @@ In order to clone this repository, you must:
 
 ### Automated
 
-#### W3C
+#### W3 Validator - HTML
 
-In order to conduct testing on both the HTML and CSS within my site, I used the [W3C Validator](https://validator.w3.org/). The results for both the HTML and CSS testing can be seen below.
+In order to conduct testing on the HTML within my site, I used the [W3C Validator](https://validator.w3.org/). The results for both the HTML and CSS testing can be seen below.
 
-- HTML 
+- Home initial test
 
-    - Home initial test
 ![w3c-home](assets/images/testing/w3c-html/w3c-home.png)
 
-    - Menu initial test
+- Menu initial test
+
 ![w3c-menu](assets/images/testing/w3c-html/w3c-menu.png)
 
-    - Merch initial test
+- Merch initial test
+
 ![w3c-merch](assets/images/testing/w3c-html/w3c-merch.png)
 
 Following the tests, I went through the HTML for all of the pages and fixed the errors. The results were as follows:
 
 - Home 
 
-    I went into the home HTML and changed some of the sections to divs which worked well, rectified the warnings and did not impact the responsiveness of the page. I removed the trailing "/" from the stylesheet, rectifying that and cleaning the code. Fixing the error was a little more work to figure out but I edited the style of the iframe which fixed the error and produced the following result when tested:
+    I went into the Home page HTML and changed some of the sections to divs which worked well, rectified the warnings and did not impact the responsiveness of the page. I removed the trailing "/" from the stylesheet, rectifying that and cleaning the code. Fixing the error was a little more work to figure out but I edited the style of the iframe which fixed the error and produced the following result when tested:
 
 ![w3c-home-final](assets/images/testing/w3c-html/w3c-home-final.png) 
+
+- Menu
+
+    I went into the Menu page HTML and removed the "/" from the stylesheet and changed the "h1" to a "h2" in the main section, rectifying the issues on that page. The following results were produced when tested:
+
+![w3c-menu-final](assets/images/testing/w3c-html/w3c-menu-final.png)
+
+- Merch
+
+    I repeated the steps above to rectify the issues on the Merch page. The following results were produced when tested:
+
+![w3d-merch-final](assets/images/testing/w3c-html/w2c-merch-final.png)
 
 ## Credits
 
