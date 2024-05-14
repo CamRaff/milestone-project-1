@@ -269,6 +269,19 @@ Following the tests, I went through the HTML for all of the pages and fixed the 
 
 ![w3d-merch-final](assets/images/testing/w3c-html/w2c-merch-final.png)
 
+
+#### W3 Validator - CSS
+
+In order to conduct testing on the CSS implemented in my site, I used the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/). The initial results were as follows:
+
+![w3c-css-first](assets/images/testing/w3c-css/w3c-css-first.png)
+
+In order to rectify these issues, I had to remove the Media Qeurys which were nested in the CSS. After doing so, everything maintained its responsiveness and the results were as follows:
+
+![w3c-css-final](assets/images/testing/w3c-css/w3c-css-final.png)
+
+---
+
 ## Credits
 
 ### Outside Code
