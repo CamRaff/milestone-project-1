@@ -280,6 +280,11 @@ In order to rectify these issues, I had to remove the Media Qeurys which were ne
 
 ![w3c-css-final](assets/images/testing/w3c-css/w3c-css-final.png)
 
+
+### Lighthouse
+
+
+
 ---
 
 ## Credits
