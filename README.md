@@ -1,5 +1,7 @@
 # CamRaff - Milestone Project 1
 
+![displays](assets/images/displays.png)
+
 Here is a link to the deployed site: [Barca Tynemouth](https://camraff.github.io/milestone-project-1/ "Barca Tynemouth")
 
 For my first Milstone Project on my course through Code Institute via UCP (University Centre Peterborough), I thought the best thing to do was to produce something I would be familiar with. I have worked at Barca in Tynemouth for around 6/7 years on and off. I had a little break where I tried my hand at Recruitment, however, this field of work wasn't for me. During my time in Recruitment I worked sourcing candidates adept in Salesforce, before moving to a different company where I worked sourcing talented individuals in the Games Industry. This is where I built more of a passion for IT myself and decided to try my hand at Developing. I found a bit of myself here and though I had no previous experience at all, I begun to enjoy working in this field and decided I wanted to make this into a career. So here is my first project. I have produced this project with only 2 months of experience overall in coding. This is just the beginning!
@@ -45,6 +47,10 @@ For my first Milstone Project on my course through Code Institute via UCP (Unive
         - [Fork](#fork)
 
         - [Clone](#clone)
+
+- [Testing](#testing)
+
+    - [Automated](#automated)
 
 - [Credits](#credits)
 
@@ -222,6 +228,33 @@ In order to clone this repository, you must:
 6. Type 'git clone' into the terminal, paste the link you copied in step 4 and press enter. 
 
 ---
+
+## Testing
+
+### Automated
+
+#### W3C
+
+In order to conduct testing on both the HTML and CSS within my site, I used the [W3C Validator](https://validator.w3.org/). The results for both the HTML and CSS testing can be seen below.
+
+- HTML 
+
+    - Home initial test
+![w3c-home](assets/images/testing/w3c-html/w3c-home.png)
+
+    - Menu initial test
+![w3c-menu](assets/images/testing/w3c-html/w3c-menu.png)
+
+    - Merch initial test
+![w3c-merch](assets/images/testing/w3c-html/w3c-merch.png)
+
+Following the tests, I went through the HTML for all of the pages and fixed the errors. The results were as follows:
+
+- Home 
+
+    I went into the home HTML and changed some of the sections to divs which worked well, rectified the warnings and did not impact the responsiveness of the page. I removed the trailing "/" from the stylesheet, rectifying that and cleaning the code. Fixing the error was a little more work to figure out but I edited the style of the iframe which fixed the error and produced the following result when tested:
+
+![w3c-home-final](assets/images/testing/w3c-html/w3c-home-final.png) 
 
 ## Credits
 
