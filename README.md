@@ -283,7 +283,39 @@ In order to rectify these issues, I had to remove the Media Qeurys which were ne
 
 ### Lighthouse
 
+As another method of automatic testing, I ran each of my three pages though Lighthouse on Google Dev Tools. Lighthouse tests 4 main areas of your site, them being its Performance, its Accessibility, how well it conforms with Best Practices and also how well it would perform when being searched for in a browser, its Search Engine Optimization (SEO). The PWA section is being depreciated by Lighthouse in future releases, so there are no values given here. The following results were acquired when the initial tests were ran:
 
+#### Desktop
+
+- Home
+
+![home-desk-first](assets/images/testing/Lighthouse/home-desk-first.png)
+
+- Menu
+
+![menu-desk-first](assets/images/testing/Lighthouse/menu-desk-first.png)
+
+- Merch
+
+![merch-desk-first](assets/images/testing/Lighthouse/merch-desktop-first.png)
+
+#### Mobile
+
+- Home
+
+![home-mobile-first](assets/images/testing/Lighthouse/home-mobile-first.png)
+
+- Menu
+
+![menu-mobile-first](assets/images/testing/Lighthouse/menu-mobile-first.png)
+
+- Merch 
+
+![merch-mobile-first](assets/images/testing/Lighthouse/merch-mobile-first.png)
+
+As you can see from the above results, there were several areas which could be improved upon. The main issues being flagged by Lighthouse were the image sizing/file types for performance, lack of titles for accessibility and my webpage didn't have a description in its head, meaning that its SEO wasn't as good as it could have been. 
+
+There was an issue on the Home page regarding Best Practices relating to Third Party Cookies from the iframe I was using. Unfortunately I was unable to rectify this as I believe this would have been something implemented via JavaScript. 
 
 ---
 
