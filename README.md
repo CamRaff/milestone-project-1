@@ -317,6 +317,20 @@ As you can see from the above results, there were several areas which could be i
 
 There was an issue on the Home page regarding Best Practices relating to Third Party Cookies from the iframe I was using. Unfortunately I was unable to rectify this as I believe this would have been something implemented via JavaScript. 
 
+Following on from changes made to the image sizes, iframes, social media links and metadata, the results for each page were as follows:
+
+- Home
+
+![home-desk-final](assets/images/testing/Lighthouse/home-desk-final.png)
+
+- Menu
+
+![menu-desk-final](assets/images/testing/Lighthouse/menu-desk-final.png)
+
+- Merch
+
+![menu-desk-final](assets/images/testing/Lighthouse/merch-desk-final.png)
+
 ---
 
 ## Credits
