@@ -52,6 +52,12 @@ For my first Milstone Project on my course through Code Institute via UCP (Unive
 
     - [Automated](#automated)
 
+        - [W3 Validator - HTML](#w3-validator---html)
+
+        - [W3 Validator - CSS](#w3-validator---css)
+
+        - [Lighthouse](#lighthouse)
+
 - [Credits](#credits)
 
     - [Outside Code](#outside-code)
@@ -94,13 +100,13 @@ The below Wireframes were created with responsive design in mind. The main focus
 
 This is the initial mock-up for all 3 pages on a mobile device.
 
-![mobile-wireframe](assets/images/wireframes/mobile-wireframe.png/)
+![mobile-wireframe](assets/images/wireframes/mobile-wireframe.png)
 
 #### Tablet
 
 This is an initial mock-up for the view of the merch page on a tablet. My vision for a tablet view would be to have the Home and Menu page look the same as on mobile, so with the only real changes being to the Merch page, I created a mock-up for that.
 
-![tablet-wireframe](assets/images/wireframes/tablet-wireframe.png/)
+![tablet-wireframe](assets/images/wireframes/tablet-wireframe.png)
 
 #### Desktop
 
@@ -108,21 +114,21 @@ Below are the mock-ups for each individual page when viewed on a desktop/laptop 
 
 - ##### Home page
 
-![desktop-home-wireframe](assets/images/wireframes/desktop-home-wireframe.png/)
+![desktop-home-wireframe](assets/images/wireframes/desktop-home-wireframe.png)
 
 - ##### Merch page
 
-![desktop-merch-wireframe](assets/images/wireframes/desktop-merch-wireframe.png/)
+![desktop-merch-wireframe](assets/images/wireframes/desktop-merch-wireframe.png)
 
 - ##### Menu page
 
-![desktop-menu-wireframe](assets/images/wireframes/desktop-menu-fireframe.png/)
+![desktop-menu-wireframe](assets/images/wireframes/desktop-menu-fireframe.png)
 
 ### Color Scheme
 
 For the color scheme of the website, I decided to go with the original color palette from the logo you can see below.
 
-![barca-logo](assets/images/barca-logo.jpg/)
+<img src="assets/images/barca-logo.jpg" alt="Barca Logo" width="500">
 
 I chose the green color for the body text, as well as the navigation menu, and decided to make it so that when you hover over the navigation links, they change to red. This is in keeping with the original logo with it being green to begin with, and then red at the end. I decided to also maintain the black backround, and this allows the text to stand out. 
 
@@ -140,13 +146,13 @@ After spending some time looking over some fonts, I decided to go with [Merriwea
 
 I chose Merriweather for the body text font as I think it has a very friendly and inviting vibe, and I think with the color being a shade of green, some fonts wouldn't look quite as nice in this color, however Merriweather does. 
 
-![merriweather](assets/images/merriweather-example.png/)
+![merriweather](assets/images/merriweather-example.png)
 
 - #### Anton
 
 I chose Anton for the header and navigation text as I felt that this font had a similar kind of sharpness too it as can be seen in the image above where I chose the color scheme from.
 
-![anton](assets/images/anton-example.png/)
+![anton](assets/images/anton-example.png)
 
 ### Images
 
@@ -281,11 +287,11 @@ In order to rectify these issues, I had to remove the Media Qeurys which were ne
 ![w3c-css-final](assets/images/testing/w3c-css/w3c-css-final.png)
 
 
-### Lighthouse
+#### Lighthouse
 
 As another method of automatic testing, I ran each of my three pages though Lighthouse on Google Dev Tools. Lighthouse tests 4 main areas of your site, them being its Performance, its Accessibility, how well it conforms with Best Practices and also how well it would perform when being searched for in a browser, its Search Engine Optimization (SEO). The PWA section is being depreciated by Lighthouse in future releases, so there are no values given here. The following results were acquired when the initial tests were ran:
 
-#### Desktop
+##### Desktop
 
 - Home
 
@@ -299,7 +305,7 @@ As another method of automatic testing, I ran each of my three pages though Ligh
 
 ![merch-desk-first](assets/images/testing/Lighthouse/merch-desktop-first.png)
 
-#### Mobile
+##### Mobile
 
 - Home
 
@@ -319,6 +325,8 @@ There was an issue on the Home page regarding Best Practices relating to Third P
 
 Following on from changes made to the image sizes, iframes, social media links and metadata, the results for each page were as follows:
 
+##### Desktop
+
 - Home
 
 ![home-desk-final](assets/images/testing/Lighthouse/home-desk-final.png)
@@ -330,6 +338,175 @@ Following on from changes made to the image sizes, iframes, social media links a
 - Merch
 
 ![menu-desk-final](assets/images/testing/Lighthouse/merch-desk-final.png)
+
+##### Mobile
+
+- Home 
+
+![home-mobile-final](assets/images/testing/Lighthouse/home-mobile-final.png)
+
+- Menu
+
+![menu-mobile-final](assets/images/testing/Lighthouse/menu-mobile-final.png)
+
+- Merch 
+
+![merch-mobile-final](assets/images/testing/Lighthouse/merch-mobile-final.png)
+
+As you can see from the changes made, the performance of the website increased on all pages. The accessability on all pages increased to 100 on both desktop and mobile views, along with SEO. Best practices increased to 100 on both the Menu and Merch page, and the Home page maintained the score of 74 and 78 for the desktop and mobile views respectively (third party cookies issue).
+
+### Manual
+
+#### User Stories
+
+**First Time Visitor Goals**
+
+| Goals | Outcome |
+| ----- | ----- |
+| I want to understand what the situation with Barca Tynemouth is, like opening times and location. | Upon visiting the Home page, opening times and location information are visible. |
+| I want to get a feel for the vibe of the venue and the menu. | Upon visiting the site and looking at the graphics, colours and Menu page, I get an understanding of the kind of place Barca is. |
+| I am interested in purchasing merchandise if possible. | Upon visiting the site I can see a Merch section in the navigation bar. |
+| I want to be able to access and navigate the website easily regardless of what device I choose to use. | I am able to access the website on my phone and my laptop, and the site looks good on both. |
+
+**Returning Visitor Goals**
+
+| Goals | Outcome |
+| ----- | ----- |
+| I want to see if there are any new events or merchandise on the site. | When visiting the Merch page, you get told that merchandise is updated regularly, so I should check back soon to see if there is anything new. |
+
+**Frequent Visitor Goals**
+
+| Goals | Outcome |
+| ----- | ----- |
+| I want the option to reachout via socials to get updates on events and merchandise. | There are social network links in the footer of the page meaning I can view and get in touch if I please! |
+
+#### Full Site Testing
+
+This site was built using VSCode as my chosen IDE. The majority of the development was undertaken on a Windows laptop before upgrading to a MacBook where the final changes and majority of testing were done.
+
+The devices I used to test my site throughout development and upon completion are:
+
+- Windows laptop - ASUS ROG Gaming Laptop, 17.3".
+
+- MacBook Air 15", M2.
+
+- Mobile - Apple iPhone 15 Pro Max.
+
+I tested the site using three different browsers on both the laptop and mobile, them being Safari, Google Chrome, and Mozilla Firefox. The site worked as expected on all three browsers on both platforms, and the desired styling was displayed. The laptop and mobile views are below for each browser:
+
+- Safari
+
+    - Laptop 
+
+    <img src="assets/images/testing/safari-laptop.png" alt="Safari Laptop Screenshot" width="800">
+
+    - Mobile 
+
+    <img src="assets/images/testing/safari-mobile.PNG" alt="Safari Mobile Screenshot" width="300">
+
+- Chrome
+
+    - Laptop
+
+    <img src="assets/images/testing/chrome-laptop.png" alt="Chrome Laptop Screenshot" width="800">
+
+    - Mobile
+
+    <img src="assets/images/testing/chrome-mobile.PNG" alt="Chrome Laptop Screenshot" width="300">
+
+
+- Firefox
+
+    - Laptop
+
+    <img src="assets/images/testing/firefox-laptop.png" alt="Firefox Laptop Screenshot" width="800">
+
+    - Mobile
+
+    <img src="assets/images/testing/firefox-mobile.PNG" alt="Firefox Mobile Screenshot" width="300">
+
+Below are some screenshots taken how the pages responds when the browser size is manipulated on a laptop:
+
+- Home
+
+    - Large
+
+    <img src="assets/images/testing/home-large.png" alt="Home Large" width="800">
+
+    - Medium
+
+    <img src="assets/images/testing/home-medium.png" alt="Home Medium" width="800">
+
+    - Small
+
+    <img src="assets/images/testing/home-small.png" alt="Home Small" width="800">
+
+- Menu
+
+    - Large
+
+    <img src="assets/images/testing/menu-large.png" alt="Menu Large" width="800">
+
+    - Medium
+
+    <img src="assets/images/testing/menu-medium.png" alt="Menu Medium" width="800">
+
+    - Small 
+
+    <img src="assets/images/testing/menu-small.png" alt="Menu Small" width="800">
+
+- Merch
+
+    - Large
+
+    <img src="assets/images/testing/merch-large.png" alt="Merch Large" width="800">
+
+    - Medium
+
+    <img src="assets/images/testing/merch-medium.png" alt="Merch Medium" width="800">
+
+    - Small
+
+    <img src="assets/images/testing/merch-small.png" alt="Merch Small" width="800">
+
+#### Feature Testing
+
+There are features that differ between each page, however, the Header and the Footer remained the same across all 3 pages, with hover effects, active effects and navigational links. The Home page was designed so the layout would stay the same across all platforms. The Menu page had CSS implemented so that, when on a larger screen, the images and descriptions would alternate sides between drinks. The Merch page had CSS implemented so that, when on a larger screen, you hover over an image and the description and price of the item appear. Testing for all of these features were as follows:
+
+**Header**
+
+| Feature | Expectation | Test Performed | Outcome | 
+| ----- | ----- | ----- | ----- | 
+| Barca Title | Navigate back to home page | Clicked on all pages | Refreshed on the Home page and returned to the Home page on all others |
+| Navigation Links | Take the user to the desired page | Clicked on all pages | Went to the desired page |
+| Nav Hover Effect | Menu items will change color | Hovered over each option | Color changed as desired |
+| Active Effect | The page you're on will be underlined | Accessed each page | The page you're currently on is underlined in the Nav bar |
+
+**Footer**
+
+| Feature | Expectation | Test Performed | Outcome |
+| ----- | ----- | ----- | ----- |
+| Footer Links | Take you to desired social media platform| Clicked link | Taken to the platform I desired |
+| Footer Hover | Icon will change color | Hovered over each icon | Icon color changed as desired | 
+
+**Home Page**
+
+| Feature | Expectation | Test Performed | Outcome |
+| ----- | ----- | ----- | ----- |
+| Responsive Content | Content will respond and be viewable on different devices | Opened page on different sized displays | Page responded as desired | 
+
+**Menu Page**
+
+| Feature | Expectation | Test Performed | Outcome | 
+| ----- | ----- | ----- | ----- |
+| Responsive Content | Content will alternate depending on display size | Opened the page on different sized displays | Content alternated (img left then img right) as you scrolled on a larger display, and rearranged vertically on a smaller display, as desired |
+
+**Merch Page**
+
+| Feature | Expectation | Test Performed | Outcome |
+| ----- | ----- | ----- | ----- |
+| Hover Effect | Description and price will appear on hover when on a laptop/desktop view | Hovered over images | Description and prices appeared as desired |
+| Responsive Content | Content will shift based on display size | Opened the page on different sized displays | Content shifted from horizontal on a large display to vertical on a smaller display, as desired |  
 
 ---
 
