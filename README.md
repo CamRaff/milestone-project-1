@@ -529,7 +529,7 @@ There are features that differ between each page, however, the Header and the Fo
 
 ### Outside Code
 
-- I couldn't quite figure out how to get the images on the menu page to show the description and pricing when hovering, so I did a quick google and found a good bit of code on a website called [Stack Overflow](https://stackoverflow.com/questions/14263594/how-to-show-text-on-image-when-hovering). I copied this and edited it to make it work within my site.
+- I couldn't quite figure out how to get the images on the Merch page to show the description and pricing when hovering, so I did a quick google and found a good bit of code on a website called [Stack Overflow](https://stackoverflow.com/questions/14263594/how-to-show-text-on-image-when-hovering). I copied this and edited it to make it work within my site.
 
 ### Images
 
