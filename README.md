@@ -533,7 +533,7 @@ There are features that differ between each page, however, the Header and the Fo
 
 ### Images
 
-- All of the images (except the social media icons, which are from [Font Awesome](https://fontawesome.com)) used in this project were either taken or developed by staff members at Barca. 
+- All of the images (except the social media icons, which are from [Font Awesome](https://fontawesome.com) and the browser title icon, which is from [Favicon](https://favicon.io/)) used in this project were either taken or developed by staff members at Barca. 
 
 ### Core Content
 
