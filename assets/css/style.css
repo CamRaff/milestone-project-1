@@ -46,10 +46,6 @@ header a {
     font-size: 400%;
     letter-spacing: 6px;
 
-    /* @media only screen and (min-width: 700px) {
-        text-align: left;
-        float: left;
-    } */
 }
 
 @media only screen and (min-width: 700px) {
@@ -68,9 +64,6 @@ header a {
     text-align: center;
     font-size: 1.5rem;
 
-    /* @media only screen and (min-width: 500px) {
-        font-size: 2rem;
-    } */
 }
 
 @media only screen and (min-width: 500px) {
@@ -96,9 +89,6 @@ header a {
     margin: 0 5px;
     list-style-type: none;
 
-    /* @media only screen and (min-width: 700px) {
-        margin: 0 10px;
-    } */
 }
 
 @media only screen and (min-width: 700px) {
@@ -217,9 +207,6 @@ body {
     align-items: center;
     justify-content: center;
 
-    /* @media only screen and (min-width: 1200px) {
-        flex-direction: row;
-    } */
 }
 
 @media only screen and (min-width: 1200px) {
@@ -236,9 +223,6 @@ body {
     object-fit: contain;
     max-height: 400px;
 
-    /* @media only screen and (min-width: 1200px) {
-        max-height: 500px;
-    } */
 }
 
 @media only screen and (min-width: 1200px) {
@@ -281,18 +265,26 @@ body {
     padding: 20px;
     font-size: 22px;
 
-    /* @media only screen and (min-width: 1200px) {
-        font-size: 50px;
+}
+
+    /* 
+    
+    The code seen in this comment is the inspiration acquired from Stack Overflow for the hover effect
+    
+    .description {
         position: absolute;
         top: 0;
         bottom: 0;
         left: 0;
         right: 0;
+        background: rgba(29, 106, 154, 0.72);
+        color: #fff;
         visibility: hidden;
         opacity: 0;
         transition: opacity .2s, visibility .2s;
-    } */
-}
+    } 
+    
+    */
 
 @media only screen and (min-width: 1200px) {
     .description {
@@ -341,10 +333,6 @@ body {
     margin: 50px auto;
     max-width: 400px;
 
-    /* @media only screen and (min-width: 1200px) {
-        max-width: 100%;
-        display: flex;
-    } */
 }
 
 @media only screen and (min-width: 1200px) {
@@ -354,24 +342,18 @@ body {
     }
 }
 
-/* .columns--alt { */
 @media only screen and (min-width: 1200px) {
     .columns--alt {
         flex-direction: row-reverse;
     }
 }
 
-/* } */
-
-/* .columns .drinks { */
 @media only screen and (min-width: 1200px) {
     .columns .drinks {
         display: inline-block;
         width: 50%;
     }
 }
-
-/* } */
 
 .drinks h3 {
     font-size: 50px;

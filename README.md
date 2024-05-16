@@ -58,6 +58,14 @@ For my first Milstone Project on my course through Code Institute via UCP (Unive
 
         - [Lighthouse](#lighthouse)
 
+    - [Manual](#manual)
+
+        - [User Stories](#user-stories-1)
+        
+        - [Site Testing](#site-testing)
+
+        - [Feature Testing](#feature-testing)
+
 - [Credits](#credits)
 
     - [Outside Code](#outside-code)
@@ -158,7 +166,9 @@ I chose Anton for the header and navigation text as I felt that this font had a 
 
 The image used on the home page was created by John Christensen, a staff member at Barca Tynemouth. Each of the merchandise images were taken by Beth Simpson, also a staff member at Barca Tynemouth.
 
-For the social media links in the footer I used Font Awesome, with a link acquired from Code Institute.
+For the social media links icons in the footer I used [Font Awesome](https://fontawesome.com/), with a link acquired from Code Institute.
+
+For the image displayed in the browser tab, I used [Favicon](https://favicon.io/).
 
 All of the images found on the menu page were taken by myself using my iPhone. 
 
@@ -172,15 +182,19 @@ My reasons for having each page display as they are were as follows:
 
 - #### Home Page
 
-This page has a very straight forward layout, with an image of the front of the bar created by one of the bar staff, as well as a brief description, location information and links to social platforms. I felt that this was a great example of a home page, as it gives you everything you may need at a first glance of the website. The unique aspect of this page is the location information, utilizing an iframe to put the map on the page. The overall layout for this page should stay the same on smaller devices, with one change being the main image. For smaller screens, to give it a better user experience, I changed the image so that it shows the BARCA logo instead of the original bar image as I felt the bar image was just a bit too big to be displayed properly on a smaller screen.
+This page has a very straight forward layout, with an image of the front of the bar created by one of the bar staff, as well as a brief description, location information and links to social platforms. I felt that this was a great example of a home page, as it gives you everything you may need at a first glance of the website. The unique aspect of this page is the location information, utilizing an iframe to put the map on the page. The overall layout for this page should stay the same on smaller devices.
+
+<!-- with one change being the main image. For smaller screens, to give it a better user experience, I changed the image so that it shows the BARCA logo instead of the original bar image as I felt the bar image was just a bit too big to be displayed properly on a smaller screen. -->
 
 - #### Menu Page
 
-I wanted this page to look a bit like a menu from an actual bar or restaurant, with images of the thing you would purchase along with a description and pricing. I kept this one relatively simple again and made it so that the image and description alternated sides as you went down the products on the page (image left with its description right, then image right with its description left and so on). The unique part of this page is the layout and how it differs from the other two. The overall layout for this page should stay the same on smaller devices.
+I wanted this page to look a bit like a menu from an actual bar or restaurant, with images of the thing you would purchase along with a description and pricing. I kept this one relatively simple again and made it so that the image and description alternated sides as you went down the products on the page (image left with its description right, then image right with its description left and so on). The unique part of this page is the layout and how it differs from the other two. The desired changes for smaller displays are to have the images and descriptions fall into a vertical fashion.
+
+<!-- The overall layout for this page should stay the same on smaller devices. -->
 
 - #### Merch Page
 
-For this page I had the idea of having the merchandise description and pricing appear when you hovered over the image with a mouse. I achieved this, and I think it looks good on the page. As it would be a lot harder to achieve this on smaller devices like tablets and smartphones, I decided to make it so that the description of the item fell below each image, and each image just fell in a linear fashion. 
+For this page I had the idea of having the merchandise description and pricing appear when you hovered over the image with a mouse. I achieved this, and I think it looks good on the page. As it would be a lot harder to achieve this on smaller devices like tablets and smartphones, I decided to make it so that the description of the item fell below each image, and each image just fell in a vertical fashion. 
 
 
 ### Development
@@ -193,6 +207,7 @@ For this project, as per the requirements, the languages I used to create this w
 - I used [Git](https://git-scm.com/) for version control.
 - I used [GitHub](https://github.com/) to commit and store all files relating to the project.
 - I used [Balsamiq](https://balsamiq.com/) to produce the above wireframes.
+- I used [Favicon](https://favicon.io/) to produce the favicon used in the title.
 - I used [Google Fonts](https://fonts.google.com/) to evaluate and decide which fonts to use throughout the website.
 - I used [Font Awesome](https://fontawesome.com/) to acquire the icons used for the socials links.
 - I used [Google Dev Tools](https://developer.chrome.com/docs/) as a means of testing the website throughout its production.
@@ -353,7 +368,7 @@ Following on from changes made to the image sizes, iframes, social media links a
 
 ![merch-mobile-final](assets/images/testing/Lighthouse/merch-mobile-final.png)
 
-As you can see from the changes made, the performance of the website increased on all pages. The accessability on all pages increased to 100 on both desktop and mobile views, along with SEO. Best practices increased to 100 on both the Menu and Merch page, and the Home page maintained the score of 74 and 78 for the desktop and mobile views respectively (third party cookies issue).
+As you can see from the changes made, the Performance score of the website increased on all pages. The Accessability on all pages increased to 100 on both desktop and mobile views, along with SEO. Best practices increased to 100 on both the Menu and Merch page, and the Home page maintained the score of 74 and 78 for the desktop and mobile views respectively (third party cookies issue).
 
 ### Manual
 
@@ -378,11 +393,11 @@ As you can see from the changes made, the performance of the website increased o
 
 | Goals | Outcome |
 | ----- | ----- |
-| I want the option to reachout via socials to get updates on events and merchandise. | There are social network links in the footer of the page meaning I can view and get in touch if I please! |
+| I want the option to reach out via socials to get updates on events and merchandise. | There are social network links in the footer of the page meaning I can view updates and get in touch if I please! |
 
-#### Full Site Testing
+#### Site Testing
 
-This site was built using VSCode as my chosen IDE. The majority of the development was undertaken on a Windows laptop before upgrading to a MacBook where the final changes and majority of testing were done.
+This site was built using VSCode as my chosen IDE. The majority of the development was undertaken on a Windows laptop before upgrading to a MacBook where the final changes and majority of final tests were done.
 
 The devices I used to test my site throughout development and upon completion are:
 
@@ -425,7 +440,7 @@ I tested the site using three different browsers on both the laptop and mobile, 
 
     <img src="assets/images/testing/firefox-mobile.PNG" alt="Firefox Mobile Screenshot" width="300">
 
-Below are some screenshots taken how the pages responds when the browser size is manipulated on a laptop:
+Below are some screenshots taken showing how the pages responds when the browser size is manipulated on a laptop:
 
 - Home
 
