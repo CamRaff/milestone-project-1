@@ -169,16 +169,34 @@ body {
     line-height: 1.5;
 }
 
+@media only screen and (max-width: 700px) {
+    #description p {
+        font-size: 20px;
+    }
+}
+
 #times {
     text-align: center;
     margin: 20px 0 50px;
     font-size: 25px;
 }
 
+@media only screen and (max-width: 700px) {
+    #times {
+        font-size: 15px;
+    }
+}
+
 #times li {
     list-style-type: none;
     margin: 20px 0;
     font-size: 1.5rem;
+}
+
+@media only screen and (max-width: 700px) {
+    #times li {
+        font-size: 1rem;
+    }
 }
 
 #times h2 {
@@ -194,11 +212,17 @@ body {
 #merch-avail {
     text-align: center;
     font-size: 25px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
+}
+
+@media only screen and (max-width: 700px) {
+    #merch-avail p {
+        font-size: 20px;
+    }
 }
 
 #merch-avail h2 {
-    margin: 10px;
+    margin: 10px 0 25px;
 }
 
 .merch {
@@ -313,8 +337,15 @@ body {
     margin-bottom: 25px;
 }
 
+@media only screen and (max-width: 700px) {
+    #menu-intro p {
+        font-size: 20px;
+    }
+}
+
 #menu-intro h2 {
-    margin: 10px;
+    margin: 10px 0 25px;
+    letter-spacing: 3px;
 }
 
 .drinks {
@@ -362,11 +393,11 @@ body {
 }
 
 .drinks h4 {
-    font-size: 50px;
+    font-size: 25px;
     margin: 10px;
     letter-spacing: 2px;
 }
 
 .drinks p {
-    font-size: 25px;
+    font-size: 22px;
 }
